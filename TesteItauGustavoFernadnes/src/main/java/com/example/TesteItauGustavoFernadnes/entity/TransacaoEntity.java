@@ -2,12 +2,12 @@ package com.example.TesteItauGustavoFernadnes.entity;
 
 import java.time.OffsetDateTime;
 
-public class transacaoEntity {
+public class TransacaoEntity {
 
     private Double valor;
     private OffsetDateTime dataHora;
 
-    public transacaoEntity(Double valor, OffsetDateTime dataHora) {
+    public TransacaoEntity(Double valor, OffsetDateTime dataHora) {
         this.valor = valor;
         this.dataHora = dataHora;
     }
