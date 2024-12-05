@@ -26,23 +26,6 @@ public class Estatistica {
     private double max;
     private Transacao transacao;
 
-    public Estatistica(Integer count, double sum, double avg, double min, double max) {
-        this.count = count;
-        this.sum = sum;
-        this.avg = avg;
-        this.min = min;
-        this.max = max;
-    }
-
-    public Estatistica(Integer count, double sum, double avg, double min, double max, Transacao transacao) {
-        this.count = count;
-        this.sum = sum;
-        this.avg = avg;
-        this.min = min;
-        this.max = max;
-        this.transacao = transacao;
-    }
-
 
     @GetMapping
     public ResponseEntity<Estatistica> getEstatistica() {
